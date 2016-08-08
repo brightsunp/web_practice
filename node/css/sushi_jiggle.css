@@ -1,0 +1,108 @@
+body {
+	background-color: white;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#images {
+	position: relative;
+	height: 600px;
+}
+
+.sushi_box {
+	position: absolute;
+	cursor: pointer;
+}
+
+#seaweed {
+	top: 50px;
+	left: 50px;
+}
+
+#eel2 {
+	top: 50px;
+	left: 350px;
+}
+
+#roll1 {
+	top: 60px;
+	left: 720px;
+}
+
+#masago {
+	bottom: 10px;
+	left: 50px;
+}
+
+#whitefish {
+	bottom: 10px;
+	left: 350px;
+}
+
+#fancy_roll {
+	bottom: 0;
+	right: 20px;
+}
+
+#pinkfish {
+	top: 270px;
+	left: 50px;
+}
+
+#shrimp2 {
+	top: 200px;
+	left: 380px;
+}
+
+#rolls {
+	top: 320px;
+	left: 380px;
+}
+
+#sake {
+	top: 230px;
+	left: 700px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+footer a:link {
+	position: absolute;
+	font-family: Arial, sans-serif;
+	color: #5f5f5f;
+	letter-spacing: 2px;
+	font-size: 13px;
+	top: 18px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #7ccd24;
+}
+
+footer a:visited {
+	color: #4f4f4f;
+}
+
+#home {
+	left: 30px;
+	border-left: 13px solid #ff9933;
+}
+
+#blog {
+	left: 120px;
+	border-left: 13px solid #8b00e0;
+}
