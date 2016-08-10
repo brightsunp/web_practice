@@ -1,0 +1,41 @@
+body {
+	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', 'Arial', sans-serif;
+	background-color: #000;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+}
+
+#links {
+	padding: 20px 20px;
+	text-align: right;
+	z-index: 100;
+}
+
+a {
+	text-decoration: none;
+	margin-right: 15px;
+	color: #b3b0cf;
+}
+
+a:hover {
+	color: #bdcfb0;
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.8);
+}
+
+#container {
+	padding-bottom: 100px;
+}
+
+.spot {
+	position: absolute;
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}

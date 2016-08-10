@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Party Time? | Sunp</title>
+	<link rel="stylesheet" type="text/css" href="css/party_time.css" />
+</head>
+<body id="party_time">
+	<div id="container">
+		<div class="party">Time to Party?</div>
+		<hr />
+		<h2>Enter a birthdate and time to see if it's party time</h2>
+
+		<form>
+			Birthdate: <input id="bday" type="text" name="bday" placeholder="yyyy/mm/dd" />
+			Time: <input id="btime" type="text" name="btime" placeholder="--:--" />
+			<input class="btn" type="submit" value="Party?" />
+		</form>
+
+		<ul>
+			<li class="date"></li>
+			<li class="years"></li>
+			<li class="days"></li>
+			<li class="mins"></li>
+		</ul>
+		<ul>
+			<li class="tenKD"></li>
+			<li class="twentyKD"></li>
+			<li class="milM"></li>
+			<li class="tenMilM"></li>
+			<li class="fiftyMilM"></li>
+			<li class="oneBilS"></li>
+		</ul>
+	</div>
+
+	<footer>
+		<div id="links">
+			<a href="../index.html" id="home">Home</a>
+			<a href="http://brightsunp.blog.163.com" id="blog">Blog</a>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/analytics.js"></script>
+	<script type="text/javascript" src="js/party_time.js"></script>
+	<!--[if IE]>
+    	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+</body>
+</html>
