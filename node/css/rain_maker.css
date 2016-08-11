@@ -106,7 +106,7 @@ button:active {
 	height: 9px;
 }
 
-.heart before, .heart after {
+.heart:before, .heart:after {
 	position: absolute;
     content: '';
     left: 5px;
