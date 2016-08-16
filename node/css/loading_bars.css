@@ -1,0 +1,70 @@
+html {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+	background-color: #eee;
+	cursor: pointer;
+	text-align: center;
+}
+
+#main_container {
+	padding-top: 200px;
+	padding-bottom: 36px;
+	color: #aaa;
+}
+
+#message {
+	height: 20px;
+	font-size: 20px;
+}
+
+.spin {
+	-webkit-animation: spin 0.3s infinite linear;
+	-moz-animation: spin 0.3s infinite linear;
+	-o-animation: spin 0.3s infinite linear;
+	animation: spin 0.3s infinite linear;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 36px;
+	z-index: 100;
+}
+
+#links {
+	padding: 10px 0;
+}
+
+a {
+	color: #87ad90;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+@-webkit-keyframes spin {
+	from {-webkit-transform: rotate(0deg);}
+	to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spin {
+	from {-moz-transform: rotate(0deg);}
+	to {-moz-transform: rotate(360deg);}
+}
+
+@-o-keyframes spin {
+	from {-o-transform: rotate(0deg);}
+	to {-o-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}

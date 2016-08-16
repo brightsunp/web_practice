@@ -1,0 +1,133 @@
+body {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+	letter-spacing: 2px;
+	color: #57565e;
+	background-color: #ff983d;
+}
+
+#main_container {
+	position: relative;
+	width: 650px;
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 38px;
+}
+
+#food_container {
+	position: absolute;
+	top: 100px;
+	left: 75px;
+	height: 20px;
+}
+
+#food_text {
+	display: inline-block;
+	margin: 2px 12px 0;
+	color: rgba(0, 0, 0, 0.6);
+	vertical-align: top;
+}
+
+.fish {
+	display: inline-block;
+	height: 20px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: #2492b3;
+	z-index: 200;
+	cursor: pointer;
+
+	-webkit-animation: swim 1.5s;
+	-moz-animation: swim 1.5s;
+	-ms-animation: swim 1.5s;
+	-o-animation: swim 1.5s;
+	animation: swim 1.5s;
+}
+
+.fish:before {
+	position: absolute;
+	content: "";
+	top: 5px;
+	left: 40px;
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+	background-color: #202123;
+}
+
+.fish:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: -5px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #2492b3;
+	border-bottom: 10px solid transparent;
+}
+
+#text_bubble {
+	position: absolute;
+	right: 0;
+	width: 200px;
+	height: 150px;
+	background-color: #fff;
+	border-radius: 50%;
+	text-align: center;
+}
+
+#text_bubble:before {
+   content:"";
+   position: absolute;
+   right: 178px;
+   top: 128px;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: #fff;
+}
+
+#text_bubble:after{
+   content:"";
+   position: absolute;
+   right: 210px;
+   top: 160px;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background-color: #fff;
+}
+
+#bubble_text {
+	padding-top: 57px;
+	font-size: 36px;
+}
+
+#kitty_container {
+	position: relative;
+	width: 200px;
+	height: 400px;
+	margin: 120px auto 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 38px;
+}
+
+#links {
+	padding: 10px 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #175e73;
+	margin-right: 10px;
+}
+
+a:hover {
+	color: #2badd4;
+}
