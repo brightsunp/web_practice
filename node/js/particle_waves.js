@@ -1,32 +1,32 @@
 $(document).ready(function() {
 	var numOfCards = _.range(1000);
 
-	_.each(numOfCards, function(position) {
-		$('div', {
-			id: 'card' + position, 
+	_.each(numOfCards, function(pos) {
+		$('<div>', {
+			id: 'card' + pos, 
 			class: 'card'
 		}).on('click', function(event) {
 			$(this).off('click');
-			cascade(event, position);
+			cascade(event, pos);
 		}).appendTo('#main_container');
 	});
 
 	$('#main_container').append('<br class="clear" />');
 
-	function cascade(event, position) {
-		flip(position);
+	function cascade(event, pos) {
+		flip(pos);
 
 		setTimeout(function() {
-			$('#card' + (position + 1)).trigger('click');
-			$('#card' + (position - 1)).trigger('click');
-			$('#card' + (position - 40)).trigger('click');
-			$('#card' + (position + 40)).trigger('click');
+			$('#card' + (pos + 1)).trigger('click');
+			$('#card' + (pos - 1)).trigger('click');
+			$('#card' + (pos - 40)).trigger('click');
+			$('#card' + (pos + 40)).trigger('click');
 		}, 50);
 
 		setTimeout(function() {
-			$('#card' + position).on('click', function(evevt) {
+			$('#card' + pos).on('click', function(evevt) {
 				$(this).off('click');
-				cascade(evevt, position);
+				cascade(evevt, pos);
 			});
 		}, 800);
 	}
