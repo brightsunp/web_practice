@@ -1,13 +1,13 @@
 $(document).ready(function() {
 	var words = getWordsArray();
-	var ifStart = true;
+	var ifStart = false;
 	var start;
 
 	$('.btn').on('click', function() {
-		if (ifStart) {
-			stopWords();
-		} else {
+		if (!ifStart) {
 			startWords();
+		} else {
+			stopWords();
 		}
 	});
 
