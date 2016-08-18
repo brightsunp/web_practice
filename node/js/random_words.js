@@ -3,8 +3,6 @@ $(document).ready(function() {
 	var ifStart = true;
 	var start;
 
-	startWords();
-
 	$('.btn').on('click', function() {
 		if (ifStart) {
 			stopWords();
