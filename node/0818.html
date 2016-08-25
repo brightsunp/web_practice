@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Snake Game | Sunp</title>
+	<link rel="stylesheet" type="text/css" href="css/snake_game.css" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Anonymous+Pro" />
+</head>
+<body id="snake_game">
+	<header>
+		<a href="0818.html" id="title">Snake</a>
+		<div id="links">
+			<a href="../index.html" id="home">Home</a>
+			<a href="http://brightsunp.blog.163.com" id="blog">Blog</a>
+		</div>
+		<br class="clear" />
+	</header>
+	
+	<div id="game_over" class="modal">
+		<div class="inner_modal">
+			<h1>Game Over</h1>
+			<a href="0818.html">Try again?</a>
+		</div>
+	</div>
+
+	<div id="help" class="modal">
+		<div class="inner_modal">
+			<div class="close">X</div>
+			<h2>Use the arrow keys to control the snake.</h2>
+			<h2>Eat all of the green spots to advance to the next level.</h2>
+			<h2>Don't eat yourself or smash into the walls.</h2>
+			<h2>Like life, there is no pause button.</h2>
+		</div>
+	</div>
+
+	<div id="game_container">
+		<canvas id="canvas" height="500" width="400"></canvas>
+		<div id="level">Level: 1</div>
+	</div>
+
+	<div id="help_info">?</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/underscore-min.js"></script>
+	<script src="js/analytics.js"></script>
+	<script type="text/javascript" src="js/snake_game.js"></script>
+	<!--[if IE]>
+		<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+</body>
+</html>
