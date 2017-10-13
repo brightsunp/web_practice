@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Type Test | Sunp</title>
+	<link rel="stylesheet" type="text/css" href="css/type_test.css" />
+</head>
+<body id="type_test">
+	<div id="text_container">
+		<h1>Type Test</h1>
+		<h2 id="first">Type the letters as they fall to score points.</h2>
+		<h2 id="second">The game ends if you let 20 letters escape.</h2>
+		<h2 id="third">Good Luck!</h2>
+	</div>
+
+	<div id="main_container">
+		<canvas id="canvas" width="700" height="550"></canvas>
+
+		<div id="stat_container">
+			<div id="correct" class="stat">correct: 0</div>
+			<div id="wrong" class="stat">wrong: 0</div>
+			<div id="missed" class="stat">missed: 0</div>
+		</div>
+	</div>
+
+	<footer>
+		<div id="links">
+			<a href="../index.html" id="home">Home</a>
+			<a href="http://brightsunp.blog.163.com" id="blog">Blog</a>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/underscore-min.js"></script>
+	<script src="js/analytics.js"></script>
+	<script type="text/javascript" src="js/type_test.js"></script>
+	<!--[if IE]>
+		<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+</body>
+</html>

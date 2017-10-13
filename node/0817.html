@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Color Perception Test | Sunp</title>
+	<link rel="stylesheet" type="text/css" href="css/color_test.css" />
+</head>
+<body id="color_test">
+	<header>
+		<a href="0817.html" id="title">Color Test</a>
+		<div id="links">
+			<a href="../index.html" id="home">Home</a>
+			<a href="http://brightsunp.blog.163.com" id="blog">Blog</a>
+		</div>
+		<br class="clear" />
+	</header>
+	
+	<div id="help" class="modal">
+		<div class="close">X</div>
+		<h1>Your mission is to make the box on the right <br />
+			the exact same color as the box on the left.</h1>
+			<div id="directions">
+				<h2 class="bold">Inside the box on the right:</h2>
+				<h2>Move your mouse horizontally to adjust hue.</h2>
+				<h2>Move your mouse vertically to adjust lightness.</h2>
+				<h2>Scroll up or down to adjust saturation.</h2>
+				<br />
+				<h2>Click to submit.</h2>
+			</div>
+	</div>
+
+	<div id="win" class="modal">
+		<h1>Perfect!</h1>
+		<h2></h2>
+		<button><a href="0817.html">Next Color</a></button>
+	</div>
+
+	<div id="main_container">
+		<div id="test_container">
+			<div id="test_sample" class="sample"></div>
+			<div id="user_sample" class="sample"></div>
+
+			<div id="stats_container">
+				<h2 id="message"></h2>
+				<h3 id="hue" class="stat"></h3>
+				<h3 id="sat" class="stat"></h3>
+				<h3 id="lit" class="stat"></h3>
+			</div>
+
+			<div id="help_info">?</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/analytics.js"></script>
+	<script type="text/javascript" src="js/color_test.js"></script>
+	<!--[if IE]>
+		<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+</body>
+</html>

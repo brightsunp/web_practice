@@ -1,0 +1,152 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	text-align: center;
+	color: #3d4970;
+	background-color: #fff7f7;
+}
+
+img {
+	margin: -2px 0 0 0;
+}
+
+header {
+	height: 56px;
+	line-height: 56px;
+	margin-bottom: 10px;
+	padding: 0 20px;
+}
+
+#title {
+	float: left;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 44px;
+	letter-spacing: 2px;
+	text-shadow: -1px 1px 1px rgba(0,0,0,0.2);
+}
+
+a {
+	text-decoration: none;
+	color: #8E44AD;
+}
+
+#links {
+	float: right;
+}
+
+#links a {
+	margin-left: 15px;
+}
+
+#links a:hover {
+	color: #E67E22;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: lighter;
+	line-height: 60px;
+	margin-bottom: 40px;
+	color: #8E44AD;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 20px;
+	margin: 20px 0;
+}
+
+#try_again {
+	display: block;
+	color: #27a88e;
+	margin-top: 40px;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 5px;
+	color: #8E44AD;
+	cursor: pointer;
+}
+
+.modal {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(255,255,255,0.75);
+}
+
+.inner_modal {
+	position: relative;
+	width: 500px;
+	margin: 150px auto;
+	padding: 50px;
+	background-color: rgba(255,255,255,0.9);
+}
+
+#block {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+}
+
+#stas_container {
+	display: inline-block;
+	width: 200px;
+	margin-right: 40px;
+	margin-top: 115px;
+	vertical-align: top;
+	text-align: left;
+}
+
+#stats_container h1 {
+	font-size: 22px;
+	font-weight: lighter;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #fff;
+	text-shadow: -1px 1px 0 rgba(0,0,0,0.1);
+	background-color: #E67E22;
+}
+
+.stat {
+	margin: 10px 0 10px 5px;
+}
+
+#card_container {
+	display: inline-block;
+	width: 648px;
+	margin: auto;
+	vertical-align: top;
+}
+
+.card {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	margin: 4px;
+	box-shadow: -1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.back {
+	background-color: #333;
+}
+
+.clear {
+	clear: both;
+}

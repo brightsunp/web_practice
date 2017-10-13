@@ -1,0 +1,314 @@
+/* Chrome, Safari */
+@-webkit-keyframes twitch {
+	0% { -webkit-transform: rotate(12deg); }
+	9% { -webkit-transform: rotate(12deg); }
+	10%, 12%, 14% { -webkit-transform: rotate(15deg); }
+	11%, 13%, 15% { -webkit-transform: rotate(12deg); }
+	100% { -webkit-transform: rotate(12deg); }
+}
+
+@-webkit-keyframes tail_flick {
+	0% { -webkit-transform: rotate(0deg); }
+	79% { -webkit-transform: rotate(0deg); }
+	80%, 85%, 90% { -webkit-transform: rotate(-5deg); }
+	83%, 88%, 93% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(0deg); }
+}
+
+@-webkit-keyframes eat_mouth {
+	0% {  }
+	50% { top: 75px; left: 50px; height: 100px; width: 100px; border-radius: 50%; background-color: #ab0014;}
+	0% { }
+}
+
+@-webkit-keyframes eat_nose {
+	0% {  }
+	50% { top: 45px;}
+	0% { }
+}
+
+@-webkit-keyframes eat_eyes {
+	0% {-webkit-transform: scale(1,1);}
+	50% {-webkit-transform: scale(1,0); top: 10px;}
+	51% {-webkit-transform: scale(1,0); top: 10px;}
+	100% {-webkit-transform: scale(1,1);}
+}
+
+@-webkit-keyframes blink {
+	0% {-webkit-transform: scale(1,1);}
+	49% {-webkit-transform: scale(1,1);}
+	50% {-webkit-transform: scale(1,0);}
+	51% {-webkit-transform: scale(1,0);}
+	52% {-webkit-transform: scale(1,1);}
+	53% {-webkit-transform: scale(1,1);}
+	54% {-webkit-transform: scale(1,0);}
+	55% {-webkit-transform: scale(1,0);}
+	56% {-webkit-transform: scale(1,1);}
+	100% {-webkit-transform: scale(1,1);}
+}
+
+@-webkit-keyframes purr {
+	0% {-webkit-transform: translate(0);}
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-webkit-transform: translate(0px, 0);}
+	10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%  {-webkit-transform: translate(-1px, 0);}
+	100% {-webkit-transform: translate(0);}
+}
+
+@-webkit-keyframes paw {
+	0% {-webkit-transform: translateY(0);}
+	30%, 50%, 70% {-webkit-transform: translateY(-135px);}
+	40%, 60%, 80% {-webkit-transform: translateY(-120px);}
+	100% {-webkit-transform: translateY(0);}
+}
+
+/* Moz */
+@-moz-keyframes twitch {
+	0% { -moz-transform: rotate(12deg); }
+	9% { -moz-transform: rotate(12deg); }
+	10%, 12%, 14% { -moz-transform: rotate(15deg); }
+	11%, 13%, 15% { -moz-transform: rotate(12deg); }
+	100% { -moz-transform: rotate(12deg); }
+}
+
+@-moz-keyframes tail_flick {
+	0% { -moz-transform: rotate(0deg); }
+	79% { -moz-transform: rotate(0deg); }
+	80%, 85%, 90% { -moz-transform: rotate(-5deg); }
+	83%, 88%, 93% { -moz-transform: rotate(0deg); }
+	100% { -moz-transform: rotate(0deg); }
+}
+
+@-moz-keyframes eat_mouth {
+	0% {  }
+	50% { top: 75px; left: 50px; height: 100px; width: 100px; border-radius: 50%; background-color: #ab0014;}
+	0% { }
+}
+
+@-moz-keyframes eat_nose {
+	0% {  }
+	50% { top: 45px;}
+	0% { }
+}
+
+@-moz-keyframes eat_eyes {
+	0% {-moz-transform: scale(1,1);}
+	50% {-moz-transform: scale(1,0); top: 10px;}
+	51% {-moz-transform: scale(1,0); top: 10px;}
+	100% {-moz-transform: scale(1,1);}
+}
+
+@-moz-keyframes blink {
+	0% {-moz-transform: scale(1,1);}
+	49% {-moz-transform: scale(1,1);}
+	50% {-moz-transform: scale(1,0);}
+	51% {-moz-transform: scale(1,0);}
+	52% {-moz-transform: scale(1,1);}
+	53% {-moz-transform: scale(1,1);}
+	54% {-moz-transform: scale(1,0);}
+	55% {-moz-transform: scale(1,0);}
+	56% {-moz-transform: scale(1,1);}
+	100% {-moz-transform: scale(1,1);}
+}
+
+@-moz-keyframes purr {
+	0% {-moz-transform: translate(0);}
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-moz-transform: translate(0px, 0);}
+	10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%  {-moz-transform: translate(-1px, 0);}
+	100% {-moz-transform: translate(0);}
+}
+
+@-moz-keyframes paw {
+	0% {-moz-transform: translateY(0);}
+	30%, 50%, 70% {-moz-transform: translateY(-135px);}
+	40%, 60%, 80% {-moz-transform: translateY(-120px);}
+	100% {-moz-transform: translateY(0);}
+}
+
+/* Opera */
+@-o-keyframes twitch {
+	0% { -o-transform: rotate(12deg); }
+	9% { -o-transform: rotate(12deg); }
+	10%, 12%, 14% { -o-transform: rotate(15deg); }
+	11%, 13%, 15% { -o-transform: rotate(12deg); }
+	100% { -o-transform: rotate(12deg); }
+}
+
+@-o-keyframes tail_flick {
+	0% { -o-transform: rotate(0deg); }
+	79% { -o-transform: rotate(0deg); }
+	80%, 85%, 90% { -o-transform: rotate(-5deg); }
+	83%, 88%, 93% { -o-transform: rotate(0deg); }
+	100% { -o-transform: rotate(0deg); }
+}
+
+@-o-keyframes eat_mouth {
+	0% {  }
+	50% { top: 75px; left: 50px; height: 100px; width: 100px; border-radius: 50%; background-color: #ab0014;}
+	0% { }
+}
+
+@-o-keyframes eat_nose {
+	0% {  }
+	50% { top: 45px;}
+	0% { }
+}
+
+@-o-keyframes eat_eyes {
+	0% {-o-transform: scale(1,1);}
+	50% {-o-transform: scale(1,0); top: 10px;}
+	51% {-o-transform: scale(1,0); top: 10px;}
+	100% {-o-transform: scale(1,1);}
+}
+
+@-o-keyframes blink {
+	0% {-o-transform: scale(1,1);}
+	49% {-o-transform: scale(1,1);}
+	50% {-o-transform: scale(1,0);}
+	51% {-o-transform: scale(1,0);}
+	52% {-o-transform: scale(1,1);}
+	53% {-o-transform: scale(1,1);}
+	54% {-o-transform: scale(1,0);}
+	55% {-o-transform: scale(1,0);}
+	56% {-o-transform: scale(1,1);}
+	100% {-o-transform: scale(1,1);}
+}
+
+@-o-keyframes purr {
+	0% {-o-transform: translate(0);}
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-o-transform: translate(0px, 0);}
+	10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%  {-o-transform: translate(-1px, 0);}
+	100% {-o-transform: translate(0);}
+}
+
+@-o-keyframes paw {
+	0% {-o-transform: translateY(0);}
+	30%, 50%, 70% {-o-transform: translateY(-135px);}
+	40%, 60%, 80% {-o-transform: translateY(-120px);}
+	100% {-o-transform: translateY(0);}
+}
+
+/* MS */
+@-ms-keyframes twitch {
+	0% { -ms-transform: rotate(12deg); }
+	9% { -ms-transform: rotate(12deg); }
+	10%, 12%, 14% { -ms-transform: rotate(15deg); }
+	11%, 13%, 15% { -ms-transform: rotate(12deg); }
+	100% { -ms-transform: rotate(12deg); }
+}
+
+@-ms-keyframes tail_flick {
+	0% { -ms-transform: rotate(0deg); }
+	79% { -ms-transform: rotate(0deg); }
+	80%, 85%, 90% { -ms-transform: rotate(-5deg); }
+	83%, 88%, 93% { -ms-transform: rotate(0deg); }
+	100% { -ms-transform: rotate(0deg); }
+}
+
+@-ms-keyframes eat_mouth {
+	0% {  }
+	50% { top: 75px; left: 50px; height: 100px; width: 100px; border-radius: 50%; background-color: #ab0014;}
+	0% { }
+}
+
+@-ms-keyframes eat_nose {
+	0% {  }
+	50% { top: 45px;}
+	0% { }
+}
+
+@-ms-keyframes eat_eyes {
+	0% {-ms-transform: scale(1,1);}
+	50% {-ms-transform: scale(1,0); top: 10px;}
+	51% {-ms-transform: scale(1,0); top: 10px;}
+	100% {-ms-transform: scale(1,1);}
+}
+
+@-ms-keyframes blink {
+	0% {-ms-transform: scale(1,1);}
+	49% {-ms-transform: scale(1,1);}
+	50% {-ms-transform: scale(1,0);}
+	51% {-ms-transform: scale(1,0);}
+	52% {-ms-transform: scale(1,1);}
+	53% {-ms-transform: scale(1,1);}
+	54% {-ms-transform: scale(1,0);}
+	55% {-ms-transform: scale(1,0);}
+	56% {-ms-transform: scale(1,1);}
+	100% {-ms-transform: scale(1,1);}
+}
+
+@-ms-keyframes purr {
+	0% {-ms-transform: translate(0);}
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-ms-transform: translate(0px, 0);}
+	10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%  {-ms-transform: translate(-1px, 0);}
+	100% {-ms-transform: translate(0);}
+}
+
+@-ms-keyframes paw {
+	0% {-ms-transform: translateY(0);}
+	30%, 50%, 70% {-ms-transform: translateY(-135px);}
+	40%, 60%, 80% {-ms-transform: translateY(-120px);}
+	100% {-ms-transform: translateY(0);}
+}
+
+/* plain */
+@keyframes twitch {
+	0% { transform: rotate(12deg); }
+	9% { transform: rotate(12deg); }
+	10%, 12%, 14% { transform: rotate(15deg); }
+	11%, 13%, 15% { transform: rotate(12deg); }
+	100% { transform: rotate(12deg); }
+}
+
+@keyframes tail_flick {
+	0% { transform: rotate(0deg); }
+	79% { transform: rotate(0deg); }
+	80%, 85%, 90% { transform: rotate(-5deg); }
+	83%, 88%, 93% { transform: rotate(0deg); }
+	100% { transform: rotate(0deg); }
+}
+
+@keyframes eat_mouth {
+	0% {  }
+	50% { top: 75px; left: 50px; height: 100px; width: 100px; border-radius: 50%; background-color: #ab0014;}
+	0% { }
+}
+
+@keyframes eat_nose {
+	0% {  }
+	50% { top: 45px;}
+	0% { }
+}
+
+@keyframes eat_eyes {
+	0% {transform: scale(1,1);}
+	50% {transform: scale(1,0); top: 10px;}
+	51% {transform: scale(1,0); top: 10px;}
+	100% {transform: scale(1,1);}
+}
+
+@keyframes blink {
+	0% {transform: scale(1,1);}
+	49% {transform: scale(1,1);}
+	50% {transform: scale(1,0);}
+	51% {transform: scale(1,0);}
+	52% {transform: scale(1,1);}
+	53% {transform: scale(1,1);}
+	54% {transform: scale(1,0);}
+	55% {transform: scale(1,0);}
+	56% {transform: scale(1,1);}
+	100% {transform: scale(1,1);}
+}
+
+@keyframes purr {
+	0% {transform: translate(0);}
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {transform: translate(0px, 0);}
+	10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%  {transform: translate(-1px, 0);}
+	100% {transform: translate(0);}
+}
+
+@keyframes paw {
+	0% {transform: translateY(0);}
+	30%, 50%, 70% {transform: translateY(-135px);}
+	40%, 60%, 80% {transform: translateY(-120px);}
+	100% {transform: translateY(0);}
+}
